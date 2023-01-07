@@ -109,7 +109,7 @@ main {
     text-transform: uppercase;
 }
 
-.learn-more-btn {
+.learn-more {
     justify-self: left;
     background-color: var(--clr-neutral-200);
     border: none;
@@ -117,9 +117,10 @@ main {
     padding: 0.8rem 2rem;
     color: var(--section-color);
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 
-.learn-more-btn:is(:hover, :focus) {
+.learn-more:is(:hover, :focus) {
     outline: 2px solid var(--clr-neutral-200);
     background-color: var(--section-color);
     color: var(--clr-neutral-200);
@@ -143,7 +144,7 @@ main {
         max-width: 910px;
     }
 
-    .learn-more-btn {
+    .learn-more {
         margin-top: 3.5rem;
     }
 }
